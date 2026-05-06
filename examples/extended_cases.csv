@@ -1,0 +1,7 @@
+name,demand,capacity,latency,risk,weight,score,decision,reason
+baseline,67,88,20,15,6,122,review,automation baseline scenario exercises the review path for bounded failure handling
+pressure,79,72,28,20,8,94,review,automation pressure scenario exercises the review path for bounded failure handling
+surge,107,99,19,13,13,262,accept,automation surge scenario keeps the local fixture within the modeled acceptance band
+degraded,70,56,33,25,6,10,review,automation degraded scenario exercises the review path for bounded failure handling
+recovery,93,102,21,13,9,213,accept,automation recovery scenario keeps the local fixture within the modeled acceptance band
+boundary,70,84,23,17,7,111,review,automation boundary scenario exercises the review path for bounded failure handling
